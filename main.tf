@@ -13,6 +13,7 @@ terraform {
 
   backend "remote" {
     organization = "AfricaGlobalIT"
+
     workspaces {
       name = "ci-cd-demo-github-action"
     }
